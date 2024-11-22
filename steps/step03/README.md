@@ -70,3 +70,13 @@ Once we're happy we have all of the servers, let's head back to the `Experiment 
 Click on the `Targets` section, and change the `Selection mode` to `All` or update the `Number of resources` to 3. Click `Save`. Scroll to the bottom of the template and click `Update an experiment template`. Once the template details are shown, click on `Start experiment` in the top right corner, and confirm you want to `Start`.
 
 If you've stopped the script we were running in the terminal, restart it, then in the AWS Console, restart the experiment. After 2 or 3 minutes, the alarm should trigger and stop the experiment.
+
+## Cleaning up
+Once you've completed the experiment, you can clean up the resources by running the command `terraform destroy --auto-approve --var-file ../common/common.tfvars`. This will remove the resources we've created in this step.
+
+<br />
+<br />
+
+---
+Now, please proceed to [step 4 README](../step04/README.md), or
+Back to the main [README](../../README.md) file

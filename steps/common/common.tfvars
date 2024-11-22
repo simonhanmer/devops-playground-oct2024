@@ -1,1 +1,1 @@
-panda_name = ""   # <--- replace with your panda name
+panda_name = "funky"   # <--- replace with your panda name
